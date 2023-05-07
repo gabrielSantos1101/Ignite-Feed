@@ -1,0 +1,41 @@
+.sidebar {
+    width: 16rem;
+    background: var(--glay-800);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.cover {
+    width: 100%;
+    height: 4.5rem;
+    object-fit: cover;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar footer {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 1.5rem;
+    padding: 1.5 2rem 2rem;
+}
+.sidebar footer a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.125rem;
+
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: var( --green-500);
+    text-decoration: none;
+
+    border: 1px solid var(--green-500);
+    border-radius: 8px;
+    padding: 0.5rem;
+}
