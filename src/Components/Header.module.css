@@ -1,5 +1,5 @@
 .Header {
-    background: var(--glay-800);
+    background: var(--gray-800);
     display: flex;
     gap: 1rem;
     justify-content: center;
