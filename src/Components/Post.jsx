@@ -1,4 +1,5 @@
-// import { Article } from '@phosphor-icons/react'
+import { Avatar } from './Avatar'
+import { Comment } from './Comment'
 import styles from './Post.module.css'
 
 export function Post(Props) {
@@ -6,7 +7,7 @@ export function Post(Props) {
 		<article className={styles.post}>
 			<header>
 				<div className={styles.author}>
-					<img src={Props.imgProfile} />
+					<Avatar src="https://github.com/GabrielSantos1101.png" />
 					<div className={styles.authorInfo}>
 						<strong>{Props.author}</strong>
 						<span>{Props.role}</span>
@@ -40,6 +41,12 @@ export function Post(Props) {
 					<button type="submit">Publicar</button>
 				</footer>
 			</form>
+
+			<div className={styles.commentBox}>
+				<Comment />
+				<Comment />
+				<Comment />
+			</div>
 		</article>
 	)
 }
