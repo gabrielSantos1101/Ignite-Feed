@@ -116,8 +116,13 @@
 	cursor: pointer;
 }
 
-.feedback button[type='submit']:hover {
+.feedback button[type='submit']:not(:disabled):hover {
 	background: var(--green-300);
+}
+
+.feedback button[type='submit']:disabled {
+	opacity: 0.8;
+	cursor: not-allowed;
 }
 
 .feedback button[type='submit']:focus {

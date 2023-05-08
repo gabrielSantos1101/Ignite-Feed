@@ -35,7 +35,7 @@ const posts = [
 			{
 				type: 'paragraph',
 				content:
-					'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀',
+					'Acabei de subir mais um projeto no meu Portifocio chat! É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀',
 			},
 			{ type: 'link', content: 'fala.dev/ignite-feed' },
 		],
@@ -54,6 +54,7 @@ export function App() {
 						{posts.map((post) => {
 							return (
 								<Post
+									key={post.id}
 									author={post.author}
 									content={post.content}
 									role={post.role}
