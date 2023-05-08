@@ -1,5 +1,5 @@
 <h1 align="center"> Ignite Feed </h1>
-## <a href="https://ignite-feed-gilt.vercel.app/">Deploy</a>
+<a style="font-size: 8rem" href="https://ignite-feed-gilt.vercel.app/">Deploy</a>
 
 <h1 align="center" >
   <img alt="ignite-feed" title="feed" src=".github/preview.png" />
@@ -21,7 +21,7 @@ Clone the project and access the folder.
 ### HTTPS
 $ https://github.com/gabrielSantos1101/Ignite-Feed.git
 
-### Git CLI
+## Git CLI
 $ gh repo clone gabrielSantos1101/Ignite-Feed
 ```
 
